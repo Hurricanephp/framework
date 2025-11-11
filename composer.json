@@ -18,7 +18,9 @@
     "require-dev": {
         "pestphp/pest": "^4.1",
         "phpstan/phpstan": "^2.1",
-        "laravel/pint": "^1.25"
+        "laravel/pint": "^1.25",
+        "symfony/var-dumper": "^7.3",
+        "fakerphp/faker": "^1.24"
     },
     "config": {
         "allow-plugins": {
@@ -29,7 +31,21 @@
     "require": {
         "egulias/email-validator": "^4.0",
         "vlucas/phpdotenv": "^5.6",
-        "symfony/mailer": "^7.3"
+        "symfony/mailer": "^7.3",
+        "monolog/monolog": "^3.9",
+        "psr/log": "^3.0",
+        "psr/cache": "^3.0",
+        "symfony/cache": "^7.3",
+        "ext-tokenizer": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-dom": "*",
+        "ext-hash": "*",
+        "ext-sodium": "*",
+        "ext-session": "*",
+        "ext-openssl": "*"
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
