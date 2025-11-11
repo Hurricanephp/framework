@@ -1,8 +1,12 @@
 {
-    "name": "u0_a351/framework",
+    "name": "hurricane/framework",
+    "description": "Hurricane",
+    "keywords": ["hurricane", "framework"],
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "U0A351\\Framework\\": "src/"
+            "Hurricane\\Framework\\": "src/Framework/"
         }
     },
     "authors": [
@@ -11,5 +15,22 @@
             "email": "sushilkumbhar77@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "pestphp/pest": "^4.1",
+        "phpstan/phpstan": "^2.1",
+        "laravel/pint": "^1.25"
+    },
+    "config": {
+        "allow-plugins": {
+            "carthage-software/mago": true,
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "egulias/email-validator": "^4.0",
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/mailer": "^7.3"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
