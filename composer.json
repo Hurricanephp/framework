@@ -1,6 +1,6 @@
 {
     "name": "hurricanephp/framework",
-    "description": "Hurricane",
+    "description": "Hurricane framework",
     "keywords": ["hurricane", "framework"],
     "type": "library",
     "license": "MIT",
@@ -29,6 +29,7 @@
         }
     },
     "require": {
+        "php": "^8.2",
         "egulias/email-validator": "^4.0",
         "vlucas/phpdotenv": "^5.6",
         "symfony/mailer": "^7.3",
